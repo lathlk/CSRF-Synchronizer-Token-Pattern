@@ -12,7 +12,7 @@ if($_POST['username'] == "" or $_POST['password'] == "" or $_POST['username'] ==
     $password = $_POST['password'];
 
     if($users[$username] === $password){
-        // Start the session and generate session id and csrf token
+        // Generate session id and csrf token
         $session_id = uniqid();            
         $csrf_token = uniqid() . $session_id;
         $sessions[$username] = $session_id;
