@@ -3,4 +3,4 @@ Voting application - Developed using php to prevent Cross Site Request Forgery b
 
 Steps to Run the application
 1) Add the project directory to a php server
-2) And access <host name>/<directory name>
+2) And access HOST/directory_name
